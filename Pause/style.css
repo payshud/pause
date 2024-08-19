@@ -1,0 +1,401 @@
+p{
+  font-family: 'Source Code Pro', monospace;
+  text-align: center;
+}
+h1{
+  font-family: 'Cookie', cursive;
+  text-align: center;
+}
+h2{
+  text-align: center;
+  font-family: 'Cookie', cursive;
+  /* font-family: 'Source Code Pro', monospace; */
+  size:12px;
+}
+li{
+  font-family: 'Source Code Pro', monospace;
+  color: black;
+}
+a {
+  color:#916c80;
+  text-decoration: none;
+  size: 12px;
+}
+
+a:hover {
+  color: #648d90; 
+  border-radius: 5px;
+}
+
+.gradient{
+  background-image: linear-gradient(#bda6b2,#fbe9e3,#fff3f8,#d1fbfe,#a0bbbd);
+  object-fit: cover;
+  background-size: auto;
+  background-repeat: no-repeat;
+  margin-bottom: 100px;
+}
+.gradient1 {
+  background-image: linear-gradient( #fff3f8, #a0bbbd);
+  object-fit: cover;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+.gradient2 {
+  background-image: linear-gradient( #a0bbbd, #fbe9e3);
+  object-fit: cover;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+.gradient3 {
+  background-image: linear-gradient( #d1fbfe, #bda6b2);
+  object-fit: cover;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #ffffff;
+  padding: 1%;
+  border-radius: 10px;
+  width: 95%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.nav-links {
+  padding: 1%;
+  margin-left: 2%;
+  margin-right: 2%;
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 100px;
+  padding: 1%;
+}
+button{
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 100px;
+  height: 50px;
+  padding: 0.5%;
+  margin: 1%;
+  
+}
+
+/* Journal Entry */
+.content {
+  margin: 10px auto;
+  width: 400px;
+}
+
+.user-input {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  background: #ECECEC;
+}
+
+.name {
+  width: 300px;
+  margin: 25px auto 5px auto;
+  padding: 5px;
+  font-size: 90%;
+}
+
+.submit-btn {
+  width: 300px;
+  padding: 5px;
+  margin: 5px auto 25px auto;
+  background: #089B8A;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 100%;
+}
+
+.card-container {
+  padding: 30px;
+  background: #A2DAD3;
+}
+
+.card {
+  margin: 0 auto;
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 300px;
+  background: #fff;
+}
+
+/* The Model */
+.flex{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+}
+.contentModel {
+  margin: 10px auto;
+  padding: 10px;
+  width: 400px;
+  /* display: flex;
+  justify-content: flex-end; */
+}
+.contentModel1 {
+  margin: 10px auto;
+  padding: 10px;
+  width: 400px;
+  /* display: flex;
+  justify-content: flex-start; */
+}
+.circumstance {
+  width: 300px;
+  margin: 25px auto 5px auto;
+  padding: 5px;
+  font-size: 90%;
+}
+.circumstance1 {
+  width: 300px;
+  margin: 25px auto 5px auto;
+  padding: 5px;
+  font-size: 90%;
+}
+.thought {
+  width: 300px;
+  margin: 25px auto 5px auto;
+  padding: 5px;
+  font-size: 90%;
+}
+.thought1 {
+  width: 300px;
+  margin: 25px auto 5px auto;
+  padding: 5px;
+  font-size: 90%;
+}
+.feelings {
+  width: 300px;
+  margin: 25px auto 5px auto;
+  padding: 5px;
+  font-size: 90%;
+}
+.feelings1 {
+  width: 300px;
+  margin: 25px auto 5px auto;
+  padding: 5px;
+  font-size: 90%;
+}
+.actions {
+  width: 300px;
+  margin: 25px auto 5px auto;
+  padding: 5px;
+  font-size: 90%;
+}
+.actions1 {
+  width: 300px;
+  margin: 25px auto 5px auto;
+  padding: 5px;
+  font-size: 90%;
+}
+.result {
+  width: 300px;
+  margin: 25px auto 5px auto;
+  padding: 5px;
+  font-size: 90%;
+}
+.result1 {
+  width: 300px;
+  margin: 25px auto 5px auto;
+  padding: 5px;
+  font-size: 90%;
+}
+.submit {
+  width: 300px;
+  padding: 5px;
+  margin: 5px auto 25px auto;
+  background: #916c80;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 100%;
+}
+.submit1 {
+  width: 300px;
+  padding: 5px;
+  margin: 5px auto 25px auto;
+  background: #916c80;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 100%;
+}
+
+.model-container {
+  padding: 30px;
+  background: #648d90;
+}
+.model-container1 {
+  padding: 30px;
+  background: #648d90;
+}
+
+
+/* // emergency helpline button stuff// .card */
+
+.suicide{
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 100px;
+  height: 50px;
+  padding: 0.5%;
+  margin: 1%;
+  
+}
+
+.Goverment-Resources{
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 100px;
+  height: 50px;
+  padding: 0.5%;
+  margin: 1%;
+  
+}
+
+
+
+
+
+.self-harm{
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 100px;
+  height: 50px;
+  padding: 0.5%;
+  margin: 1%;
+  
+}
+
+section{
+  justify-content: center;
+  margin: 15px;
+}
+
+.Text-Help-Line{
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 100px;
+  height: 50px;
+  padding: 0.5%;
+  margin: 1%;
+  
+}
+
+.Eating-Disorders{
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 100px;
+  height: 50px;
+  padding: 0.5%;
+  margin: 1%;
+  
+}
+
+
+
+
+section{
+  justify-content: center;
+  margin: 15px;
+}
+
+/*Page one Pics */
+
+.Makaylahpic{
+  width: 12%;
+  height: 6%;
+  display: flex;
+  justify-content: center;
+}
+
+.Arrowpic{
+  width: 20%;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+}
+
+/* Page three Pics */
+.images{
+  display: flex;
+  justify-content: center;
+}
+.womanmeditating{
+  width: 13%;
+  height: 13%;
+}
+.theModel{
+  width: 20%;
+  height: 20%;
+}
+.manmeditating{
+  width: 10%;
+  height: 10%;
+}
+/* Page four pics */
+.Brainpic{
+  width: 390px;
+  height: 550px;
+  margin: 1%;
+}
+
+
+/* Page six pics */
+.Hand{
+  width: 10%;
+  height: 6%;
+  display: flex;
+}
+.stophand{
+  display: flex;
+  justify-content: center;
+  margin: 1%;
+}
+.Sign{
+  width: 10%;
+  height: 6;
+}
+.Esign{
+  display: flex;
+  justify-content: center;
+  margin: 1%;
+}
+
+
+/* information buttons */
+
+.CDC-Workplace{
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 100px;
+  height: 50px;
+  padding: 0.5%;
+  margin: 1%;
+  
+}
+
+/* information */
+
+.video-container-information{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
